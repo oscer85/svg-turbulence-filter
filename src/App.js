@@ -1,10 +1,13 @@
+
+import Nav from './components/Nav'
 import HeroImage from './components/HeroImage'
-import './components/style.css'
+import './components/css/style.css'
 
 
 function App() {
   return (
       <div className="container">
+        <Nav />
         <HeroImage />
       </div>
   )

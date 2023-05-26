@@ -1,7 +1,8 @@
-import girl from './girl.jpg'
-import './style.css'
 
 
+
+import girl from './assets/girl.jpg'
+import './css/style.css'
 
 const HeroImage = () => {
   return (
@@ -34,7 +35,7 @@ const HeroImage = () => {
                dur="20s" 
                begin="0.5s"
                keyTimes="0;.5;1"
-               values=".0000000001;.0085;.0000001"  />
+               values="0;.0075;0"  />
             </filter>
        </svg>
                 
