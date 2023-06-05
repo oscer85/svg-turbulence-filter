@@ -56,8 +56,8 @@ img {
     height: 100%;
     filter: url("#turbulence");
     object-fit: cover;
-    clip-path: inset(25px 25px round 0);
-    animation: HeroImageScale 3.5s ease-in reverse  ; 
+    clip-path: inset(25px 25px round 10px);
+    animation: HeroImageScale 4.2s ease-in reverse  ; 
     animation-iteration-count: 1;
 }
 
@@ -69,7 +69,7 @@ svg{
 
 @keyframes HeroImageScale{
     to{
-        height:150%;
+        height:140%;
     }
 }
 

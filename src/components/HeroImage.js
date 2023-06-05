@@ -32,7 +32,7 @@ const HeroImage = () => {
             <animate 
                href="#fluid" 
                attributeName="baseFrequency" 
-               dur="2.2s" 
+               dur="2.8s" 
                begin="0s"
                keyTimes="0;1"
                values=".0060;0"  />
