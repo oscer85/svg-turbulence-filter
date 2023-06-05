@@ -1,5 +1,5 @@
 
-import Nav from './components/Nav'
+import Navbar from './components/Navbar'
 import HeroImage from './components/HeroImage'
 import './components/css/style.css'
 
@@ -7,11 +7,11 @@ import './components/css/style.css'
 function App() {
   return (
       <div className="container">
-        <Nav />
+        <Navbar />
         <HeroImage />
       </div>
   )
 }
 
 
-export default App;
+export default App

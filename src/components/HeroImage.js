@@ -7,7 +7,7 @@ import './css/style.css'
 const HeroImage = () => {
   return (
     <div className='heroImage'>
-      <img src={girl} alt="" />
+     <img src={girl} alt="" />
        <svg 
        viewBox="0 0 493 72" 
        fill="none" 
@@ -32,12 +32,13 @@ const HeroImage = () => {
             <animate 
                href="#fluid" 
                attributeName="baseFrequency" 
-               dur="20s" 
-               begin="0.5s"
-               keyTimes="0;.5;1"
-               values="0;.0075;0"  />
+               dur="2.2s" 
+               begin="0s"
+               keyTimes="0;1"
+               values=".0060;0"  />
             </filter>
        </svg>
+       
                 
     </div>
   )
